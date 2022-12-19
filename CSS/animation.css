@@ -1,0 +1,193 @@
+/* EFFET SCROLL */
+
+/*******************************************************************************/
+
+    /* ANIMATION  */
+
+  .scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+  }
+   
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+   
+  .scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+   
+  .scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+   
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+   
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+   
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(50px);
+      opacity: 1;
+    }
+  }
+   
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }  
+
+/*******************************************************************************/
+/* HEADER */
+
+header{
+  opacity: 0;
+}
+
+header.loaded {
+
+ animation: fade-in-bottom 2s ease;
+ animation-fill-mode: forwards;
+
+  
+}
+
+
+/* SKILLS */
+
+.skill-scrol1, .skill-scrol2, .skill-scrol3, .skill-scrol4, .skill-scrol5  {
+
+  opacity: 0;
+  transition: opacity 100ms;
+
+}
+
+
+.skill-Int1,.skill-Int2, .skill-Int3, .skill-Int4, .skill-Int5  {
+
+  opacity: 0;
+
+}
+
+
+.skill-Int1.scrolled {
+
+  opacity: 1;
+  width: 0%;
+  animation: progress1 2s ease;
+  animation-fill-mode: forwards;
+
+}
+.skill-Int2.scrolled {
+
+  opacity: 1; 
+  width: 0%;
+  animation: progress2 2s ease;
+  animation-fill-mode: forwards;
+
+}
+.skill-Int3.scrolled {
+
+  opacity: 1;
+  width: 0%;
+  animation: progress3 2s ease;
+  animation-fill-mode: forwards;
+
+}
+.skill-Int4.scrolled {
+
+  opacity: 1;
+  width: 0%;
+  animation: progress4 2s ease;
+  animation-fill-mode: forwards;
+
+}
+.skill-Int5.scrolled {
+
+  opacity: 1;
+  width: 0%;
+  animation: progress5 2s ease;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes progress1{
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 60%;
+    }
+}
+@keyframes progress2{
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+@keyframes progress3{
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 10%;
+  }
+}
+@keyframes progress4{
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 10%;
+  }
+}
+@keyframes progress5{
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+
+
+
+  
+  
+ 
+
+
+

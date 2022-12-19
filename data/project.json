@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "title" : "Jesus VS Satan",
+            "description" : "Jeu developé en python, j'ai utilisé la librairie pygame",
+            "date" : "2022",
+            "picture" : "JesusVsSatan/code.png",
+            "link" : "https://github.com/aetox/JesusVsSatan"
+
+        },
+        {
+            "title" : " Spotibruh",
+            "description" : "Bot qui permet de stream des musiques spotify",
+            "date" : "2022",
+            "picture" : "Spotibruh/code.png",
+            "link" : "https://github.com/aetox/Spotibruh"
+        },
+        {
+            "title" : " Portofolio",
+            "description" : "Portofolio Dimitri Kapolas",
+            "date" : "2022",
+            "picture" : "Portofolio/code.png",
+            "link" : "https://github.com/aetox/Portfolio"
+        }
+    ]
+}

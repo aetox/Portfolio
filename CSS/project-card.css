@@ -1,0 +1,75 @@
+div.project_gallery {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+div.project-card-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.project-card-wrapper img {
+
+    width: 500px;
+    height: 300px;
+    transition: 0.5s;
+
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    -webkit-box-shadow: 6px 7.5px 12px -0.5px #8e8e8e;
+    -moz-box-shadow: 6px 7.5px 12px -0.5px #8e8e8e;
+    box-shadow: 6px 7.5px 12px -0.5px #8e8e8e;
+    border-radius: 10px;
+
+}
+div.project-card-wrapper img:hover {
+
+    width: 525px;
+    height: 325px;
+    transition: 0.5s;
+
+}
+
+div.project-card-wrapper h3 {
+
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+ 
+}
+
+div.project-card-wrapper a {
+
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+div.project-card-wrapper a:visited {
+
+    color: black;
+}
+
+div.project-card-wrapper a:hover {
+
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+
+
+div.project-card-wrapper p {
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color : rgb(49, 49, 49)
+
+}
