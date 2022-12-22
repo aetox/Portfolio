@@ -9,18 +9,25 @@
 
         },
         {
-            "title" : " Spotibruh",
+            "title" : "Spotibruh",
             "description" : "Bot qui permet de stream des musiques spotify",
             "date" : "2022",
             "picture" : "Spotibruh/code.png",
             "link" : "https://github.com/aetox/Spotibruh"
         },
         {
-            "title" : " Portofolio",
+            "title" : "Portofolio",
             "description" : "Portofolio Dimitri Kapolas",
             "date" : "2022",
             "picture" : "Portofolio/code.png",
             "link" : "https://github.com/aetox/Portfolio"
+        },
+        {
+            "title" : "ToDoNow",
+            "description" : "ToDo liste faite en PHP/MySQL (En cours)",
+            "date" : "2022",
+            "picture" : "ToDoNow/code.png",
+            "link" : "https://github.com/aetox/ToDoNow"
         }
     ]
 }
