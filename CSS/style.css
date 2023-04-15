@@ -143,6 +143,7 @@ div#en-tete pre {
   font-family: 'Kanit', sans-serif;
 
 
+  height: 220px;
 
 
 
@@ -163,7 +164,6 @@ div#macOsScreen {
 
   background-color: #C2C4C7;
   border-radius: 5px;
-  /* transform: skewY(4deg); */
 }
 
 div#macOsScreen div#barre {
@@ -204,7 +204,7 @@ background-color: #2FC246;
 
 
 span.material-symbols-outlined {
-    padding-top: 150px;
+    padding-top: 50px;
     font-size: 80px;
 	  -webkit-animation: slide-in-bottom 2s both;
 	  animation: slide-in-bottom 2s both;
