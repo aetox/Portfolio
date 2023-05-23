@@ -184,13 +184,12 @@
         <img src="ASSETS/Dimitri/dimitri.png" alt="Photo Dimitri KAPOLAS">
 
         <div class="qrCode">
-        <p>Je me présente je suis Dimitri KAPOLAS, 21 ans et je vis à Metz.
-          L'année précédente j'étais en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. <br/>
+        <p>Je me présente je suis Dimitri KAPOLAS, 22 ans et je vis à Metz.
+          Actuellement en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. <br/>
           Voulant me réorienter vers le développement, j'ai décidé à coté de ma formation initiale d'apprendre le code afin
           d'intégrer le Bachelor Concepteur développeur d’applications à CESI Nancy. <br/>
-          Je cherche donc une entreprise où effectuer mon alternance.
-          Actuellement j'ai réalisé un jeu en python à l'aide de tutoriels, un bot en python également en m'aidant uniquement de la documention. 
-          Je travaille également sur une application de jeu de soirées avec des amis. <br/>
+          Je cherche donc une entreprise où effectuer mon alternance à partir du 15 septembre 2023 pour une durée d'un an.
+         <br/>
         </p>          
 
         <a href="ASSETS/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
