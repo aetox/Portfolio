@@ -108,7 +108,7 @@
           </div>
 
           <pre id="typewriter">
-            <span class="var-highlight">var </span> alternant = {
+            <span class="var-highlight">let </span> alternant = {
                 Prenom: <span class="string-highlight">'Dimitri'</span>,
                 Nom: <span class="string-highlight">'KAPOLAS'</span>,
                 Age: <span class="string-highlight">'21'</span>,
