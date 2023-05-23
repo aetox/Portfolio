@@ -4,7 +4,7 @@
             "title" : "Jesus VS Satan",
             "description" : "Jeu developé en python, j'ai utilisé la librairie pygame",
             "date" : "2022",
-            "picture" : "JesusVsSatan/code.png",
+            "picture" : "JesusVsSatan/code.mp4",
             "link" : "https://github.com/aetox/JesusVsSatan"
 
         },
@@ -12,28 +12,21 @@
             "title" : "Spotibruh",
             "description" : "Bot qui permet de stream des musiques spotify",
             "date" : "2022",
-            "picture" : "Spotibruh/code.png",
+            "picture" : "Spotibruh/code.mp4",
             "link" : "https://github.com/aetox/Spotibruh"
         },
         {
             "title" : "Portofolio",
             "description" : "Portofolio Dimitri Kapolas",
             "date" : "2022",
-            "picture" : "Portofolio/code.png",
+            "picture" : "Portofolio/code.mp4",
             "link" : "https://github.com/aetox/Portfolio"
-        },
-        {
-            "title" : "ToDoNow",
-            "description" : "ToDo liste faite en PHP/MySQL (En cours)",
-            "date" : "2022",
-            "picture" : "ToDoNow/code.png",
-            "link" : "https://github.com/aetox/ToDoNow"
         },
         {
             "title" : "Equides",
             "description" : "Site web pour les détenteurs d'équides",
             "date" : "2023",
-            "picture" : "EquidesWebSite/code.png",
+            "picture" : "EquidesWebSite/code.mp4",
             "link" : "https://github.com/aetox/EquidesWebSite"
         }
     ]
