@@ -9,9 +9,10 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   header {
 
-    height: 90vh;
+    height: 100vh;
     
 }
+
 
     
 
@@ -32,6 +33,8 @@ div#en-tete h2 {
 div#en-tete pre {
 
   font-size: 30px;
+  height: 650px;
+
 
 }
 span.material-symbols-outlined {

@@ -36,8 +36,9 @@ html {
   
   /* HEADER */
 
-header {
 
+header {
+  opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,6 +46,14 @@ header {
   height: 115vh;
 
 }
+
+header.loaded {
+
+  animation: fade-in-bottom 2s ease;
+  animation-fill-mode: forwards;
+ 
+   
+ }
 
 .var-highlight{
 	color: #58BAE6;
