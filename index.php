@@ -150,31 +150,23 @@
       <h1>COMPETENCES</h1>
 
       <div id="skills">
+        <div class="group">
+            <img src="ASSETS/icons/angular.png" alt="angular">
+            <img src="ASSETS/icons/typescript.png" alt="typescript">
+            <img src="ASSETS/icons/java.png" alt="java">
+      </div>
+        <div class="group">
+            <img src="ASSETS/icons/php.png" alt="php">
+            <img src="ASSETS/icons/mysql.png" alt="mysql">
+            <img src="ASSETS/icons/javascript.png" alt="javascript">
+        </div>
+        <div class="group">
+            <img src="ASSETS/icons/bootstrap.png" alt="bootstrap">
 
-          <table>
-            <tr>
-              <td><span>HTML/CSS :</span></td>
-              <td><div class="htmlCss skill-scrol1 fade-in"><div class="htmlCss1 skill-Int1 slide-left">‎</div></div></td>
-            </tr>
-            <tr>
-              <td><span>JAVASCRIPT :</span></td>
-              <td><div class="javascript skill-scrol2 fade-in"><div class="javascript1 skill-Int2  fade-in">‎</div></div></td>
-
-            </tr>
-            <tr>
-              <td><span>PHP/MYSQL :</span></td>
-              <td><div class="phpMysql skill-scrol3 fade-in"><div class="phpMysql1 skill-Int3 fade-in">‎</div></div></td>
-            </tr>
-            <tr>
-              <td><span>JAVA :</span></td>
-              <td><div class="python skill-scrol4 fade-in "><div class="python1 skill-Int4 fade-in">‎</div></div></td>
-            </tr>
-            <tr>
-              <td><span>PYTHON :</span></td>
-              <td><div class="python skill-scrol5 fade-in "><div class="python1 skill-Int5 fade-in">‎</div></div></td>
-            </tr>
-          </table>
-
+            <img src="ASSETS/icons/html.png" alt="HTML">
+            <img src="ASSETS/icons/css.png" alt="css">
+        </div>
+    
       </div>
 
       <h1>A PROPOS DE MOI</h1>
@@ -184,14 +176,13 @@
         <img src="ASSETS/Dimitri/dimitri.png" alt="Photo Dimitri KAPOLAS">
 
         <div class="qrCode">
-        <p>Je me présente je suis Dimitri KAPOLAS, 21 ans et je vis à Metz.
-          L'année précédente j'étais en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. <br/>
-          Voulant me réorienter vers le développement, j'ai décidé à coté de ma formation initiale d'apprendre le code afin
-          d'intégrer le Bachelor Concepteur développeur d’applications à CESI Nancy. <br/>
-          Je cherche donc une entreprise où effectuer mon alternance.
-          Actuellement j'ai réalisé un jeu en python à l'aide de tutoriels, un bot en python également en m'aidant uniquement de la documention. 
-          Je travaille également sur une application de jeu de soirées avec des amis. <br/>
-        </p>          
+        <p>
+          Je me présente je suis Dimitri KAPOLAS, 22 ans et je vis à Metz.
+          Actuellement en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. 
+          Développeur autodidacte, je suis actuellement à la recherche d'une entreprise 
+          pour mon alternance d'une durée d'un an pour le bachelor  Concepteur Développeur d'Applications
+          à partir du 15 septembre 2023.
+          </p>
 
         <a href="ASSETS/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
         

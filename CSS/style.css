@@ -258,6 +258,7 @@ div#content h1 {
 #skills {
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #1f4752;
   padding: 30px;
@@ -268,65 +269,23 @@ div#content h1 {
 
 }
 
-
-
-#skills table  {
-
-  display: block;
-  transform: skewY(0deg);
-
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
-
-#skills table td{
-
-  margin: 30px;
+.group img {
   padding: 10px;
-  font-size: 20px;
-  font-family: 'Kanit', sans-serif;
-  font-weight: 600;
-  color: white;
-
-
+  height: 60px;
+  transition: 0.3s;
 }
 
-table td span {
-
-  transition: 0.5s;
-
-
+.group img:hover {
+  height: 65px;
 }
 
 
-table td span:hover {
-
-  letter-spacing: 2px;
-  transition: 0.5s;
-
-
-}
-
-
-table td div {
-
-
-  width: 200px;
-  background-color: #4b7d8d;
-
-
-}
-
-.htmlCss,.javascript,.python,.phpMysql{
-  width: 200px;
-  background: white;
-
-}
-.htmlCss .htmlCss1,.javascript .javascript1,.python .python1,.phpMysql .phpMysql1{
-
-  margin: 0;
-  transform: skewX(-0deg);
-
-
-}
   /* *********************************************************** */
 
 
