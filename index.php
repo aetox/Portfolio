@@ -108,7 +108,7 @@
           </div>
 
           <pre id="typewriter">
-            <span class="var-highlight">var </span> alternant = {
+            <span class="var-highlight">let </span> alternant = {
                 Prenom: <span class="string-highlight">'Dimitri'</span>,
                 Nom: <span class="string-highlight">'KAPOLAS'</span>,
                 Age: <span class="string-highlight">'21'</span>,
@@ -176,6 +176,7 @@
         <img src="ASSETS/Dimitri/dimitri.png" alt="Photo Dimitri KAPOLAS">
 
         <div class="qrCode">
+
         <p>
           Je me présente je suis Dimitri KAPOLAS, 22 ans et je vis à Metz.
           Actuellement en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. 
