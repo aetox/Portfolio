@@ -33,7 +33,7 @@ div#en-tete h2 {
 div#en-tete pre {
 
   font-size: 30px;
-  height: 650px;
+  height: 650px !important;
 
 
 }

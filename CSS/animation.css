@@ -1,0 +1,33 @@
+
+    
+      @keyframes fade-in-bottom {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      } 
+    
+    /*******************************************************************************/
+    /* HEADER */
+    
+    header{
+      opacity: 0;
+    }
+    
+    header.loaded {
+    
+     animation: fade-in-bottom 2s ease;
+     animation-fill-mode: forwards;
+    
+    
+    }
+    
+    
+
+    
+    
+    

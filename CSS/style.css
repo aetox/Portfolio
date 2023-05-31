@@ -37,6 +37,10 @@ html {
   /* HEADER */
 
 
+
+
+
+
 header {
   opacity: 0;
   display: flex;
@@ -47,13 +51,6 @@ header {
 
 }
 
-header.loaded {
-
-  animation: fade-in-bottom 2s ease;
-  animation-fill-mode: forwards;
- 
-   
- }
 
 .var-highlight{
 	color: #58BAE6;
@@ -137,6 +134,7 @@ div#en-tete pre {
   font-size: 13px;
   color: black;
   width: 600px;
+  height: 280px !important;
   padding-top: 30px;
   padding-bottom: 30px;
 

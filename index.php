@@ -114,13 +114,13 @@
                 Age: <span class="string-highlight">'22'</span>,
                 Ville: <span class="string-highlight">'Nancy'</span>,
                 Competences:[
-                            <span class="string-highlight">'Angular'</span>;
-                            <span class="string-highlight">'Typescript'</span>;
-                            <span class="string-highlight">'Java'</span>;
-                            <span class="string-highlight">'PHP'</span>;
-                            <span class="string-highlight">'MySQL'</span>;
-                            <span class="string-highlight">'Javascript'</span>;
-                            <span class="string-highlight">'Boostrap'</span>;
+                            <span class="string-highlight">'Angular'</span>,
+                            <span class="string-highlight">'Typescript'</span>,
+                            <span class="string-highlight">'Java'</span>,
+                            <span class="string-highlight">'PHP'</span>,
+                            <span class="string-highlight">'MySQL'</span>,
+                            <span class="string-highlight">'Javascript'</span>,
+                            <span class="string-highlight">'Boostrap'</span>,
                             <span class="string-highlight">'HTML'</span>];
             }; </pre>
 
