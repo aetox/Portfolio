@@ -181,11 +181,7 @@
         <div class="qrCode">
 
         <p>
-          Je me présente je suis Dimitri KAPOLAS, 22 ans et je vis à Metz.
-          Actuellement en BAC + 2 Technicien Systèmes et Réseaux (TSR) à CESI Nancy. 
-          Développeur autodidacte, je suis actuellement à la recherche d'une entreprise 
-          pour mon alternance d'une durée d'un an pour le bachelor  Concepteur Développeur d'Applications
-          à partir du 15 septembre 2023.
+        Je m'appelle Dimitri KAPOLAS, un passionné de développement informatique âgé de 22 ans et résidant à Metz. Actuellement, je poursuis mon parcours académique en tant qu'étudiant en Bachelor Concepteur Développeur d'Applications au CESI Nancy. Mon apprentissage se déroule au sein de l'entreprise DODO SAS à Saint-Avold, où j'occupe le rôle de développeur Back-End.
           </p>
 
         <a href="ASSETS/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
