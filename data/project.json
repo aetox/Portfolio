@@ -1,33 +1,42 @@
-{
-    "data": [
-        {
-            "title" : "Equides",
-            "description" : "Site web pour les détenteurs d'équides",
-            "date" : "2023",
-            "picture" : "EquidesWebSite/code.mp4",
-            "link" : "https://github.com/aetox/EquidesWebSite"
-        },
-        {
-            "title" : "Portofolio",
-            "description" : "Portofolio Dimitri Kapolas",
-            "date" : "2022",
-            "picture" : "Portofolio/code.mp4",
-            "link" : "https://github.com/aetox/Portfolio"
-        },
-        {
-            "title" : "Spotibruh",
-            "description" : "Bot qui permet de stream des musiques spotify",
-            "date" : "2022",
-            "picture" : "Spotibruh/code.mp4",
-            "link" : "https://github.com/aetox/Spotibruh"
-        },
-        {
-            "title" : "Jesus VS Satan",
-            "description" : "Jeu developé en python, j'ai utilisé la librairie pygame",
-            "date" : "2022",
-            "picture" : "JesusVsSatan/code.mp4",
-            "link" : "https://github.com/aetox/JesusVsSatan"
-
-        }
-    ]
-}
+[
+  {
+    "title": "Agence BlaBlaBla",
+    "description": "Site vitrine pour l'agence de communication interne : Agence Blablabla.",
+    "date": "2023",
+    "techno": "Angular, Typescript",
+    "picture": "agenceblablabla/agenceblablabla.png",
+    "link": "https://agenceblablabla.fr"
+  },
+  {
+    "title": "Equides",
+    "description": "Application Web permettant à une écurie de gérer les équidés présents.",
+    "date": "2023",
+    "techno": "PHP, HTML, Javascript, Bootstrap",
+    "picture": "EquidesWebSite/equides.png",
+    "link": "https://equides.eu"
+  },
+  {
+    "title": "Jesus VS Satan",
+    "description": "Jeu à aborder avec l'esprit ouvert et le sens de l'humour.",
+    "date": "2022",
+    "techno": "Python, Librairie : Pygame.",
+    "picture": "JesusVsSatan/JesusVsSatan.png",
+    "link": "https://github.com/aetox/JesusVsSatan"
+  },
+  {
+    "title": "Portfolio",
+    "description": "Portfolio Dimitri Kapolas",
+    "date": "2022",
+    "techno": "HTML, CSS, Javascript",
+    "picture": "Portfolio/Portfolio.png",
+    "link": "prank.php"
+  },
+  {
+    "title": "Spotibruh",
+    "description": "Bot humanisé qui stream des musiques sur Spotify",
+    "date": "2022",
+    "techno": "Python, Librairie : Selenium ",
+    "picture": "Spotibruh/Spotibruh.png",
+    "link": "https://github.com/aetox/Spotibruh"
+  }
+]

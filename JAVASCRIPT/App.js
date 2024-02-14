@@ -1,15 +1,14 @@
 class App {
     constructor() {
         this.$projectWrapper = document.querySelector('.project_gallery')
-        this.projectApi = new ProjectApi('/data/project.json')
+        this.projectApi = new ProjectApi('data/project.json')
     }
 
     async main() {
         // Ici je récupère mes films de mon fichier old-movie-data.json
         const projectData = await this.projectApi.getProject()
-        
+
         projectData
-            // Ici, je transforme mon tableau de données en un tableau de classe Movie
             .map(project => new Project(project))
             .forEach(project => {
                 const Template = new ProjectCard(project)

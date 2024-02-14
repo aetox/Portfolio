@@ -1,21 +1,17 @@
-
 /* FONT */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* *********************************************************** */
 
 /* HTML */
 
-html { 
-
-    margin-left: 2%;
-    margin-right: 2%;
-    overflow-x: hidden; 
-} 
-
-
+html {
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow-x: hidden;
+}
 
 /* *********************************************************** */
 
@@ -28,18 +24,11 @@ html {
 #bbd5db
 #eccba7 */
 
-
 /* BACKGROUND */
-  
 
-  /* *********************************************************** */
-  
-  /* HEADER */
+/* *********************************************************** */
 
-
-
-
-
+/* HEADER */
 
 header {
   opacity: 0;
@@ -48,89 +37,84 @@ header {
   justify-content: center;
   align-items: center;
   height: 115vh;
-
+  margin-left: -3%;
+  margin-right: -3%;
 }
 
-
-.var-highlight{
-	color: #58BAE6;
+.var-highlight {
+  color: #58bae6;
 }
-.string-highlight{
-	color: #D52A55;
+.string-highlight {
+  color: #d52a55;
 }
 
 #typewriter {
-
   margin: 0;
 }
 
-
-#typewriter:after{
- 
+#typewriter:after {
   content: "|";
   animation: blink 500ms linear infinite alternate;
 }
 
-@-webkit-keyframes blink{
-	0%{opacity: 0;}
-	100%{opacity: 1;}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@-moz-keyframes blink{
-	0%{opacity: 0;}
-	100%{opacity: 1;}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes blink{
-	0%{opacity: 0;}
-	100%{opacity: 1;}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
+/* *********************************************************** */
 
+/* EN-TETE */
 
-
-
-  /* *********************************************************** */
- 
-  /* EN-TETE */
-
-
- div#en-tete{
-
+div#en-tete {
   width: 100vw;
   transform: skewY(-5deg);
   background-color: #1f4752;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  
 }
-    
 
 div#en-tete h1 {
-
-    margin: 30px;
-    font-size: 80px;
-    font-family: 'Kanit', sans-serif;
-    color : white;
-    font-weight: 900;
-    letter-spacing: 3px;
-    line-height: 1.5;
-    transition: 1s;
-
+  margin: 30px;
+  font-size: 80px;
+  font-family: "Kanit", sans-serif;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  transition: 1s;
 }
 
-
 div#en-tete h1:hover {
-
   letter-spacing: 10px;
   transition: 1s;
 }
 
 div#en-tete pre {
-
   font-size: 13px;
   color: black;
   width: 600px;
@@ -138,7 +122,7 @@ div#en-tete pre {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   -webkit-border-bottom-right-radius: 7px;
   -webkit-border-bottom-left-radius: 7px;
   -moz-border-radius-bottomright: 7px;
@@ -146,30 +130,21 @@ div#en-tete pre {
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
 
-
-  font-family: 'Kanit', sans-serif;
-
+  font-family: "Kanit", sans-serif;
 
   height: 220px;
-
-
-
 }
-
 
 div#en-tete h2 {
-
-    margin: 30px;
-    font-size: 25px;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 300;
-    color : white;
+  margin: 30px;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
-
 div#macOsScreen {
-
-  background-color: #C2C4C7;
+  background-color: #c2c4c7;
   border-radius: 5px;
 }
 
@@ -181,89 +156,149 @@ div#macOsScreen div#barre {
   align-items: center;
 }
 
-div#macOsScreen div#cercleR{
-
-width: 15px;
-height: 15px;
-margin-right: 10px;
-margin-left: 10px;
-border-radius: 50%;
-background-color: #FB5652;
-
-}
-div#macOsScreen div#cercleJ{
-
+div#macOsScreen div#cercleR {
   width: 15px;
-  height: 15px;;
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #fb5652;
+}
+div#macOsScreen div#cercleJ {
+  width: 15px;
+  height: 15px;
   margin-right: 10px;
   border-radius: 50%;
-  background-color: #FCB63F;
-  
-  }
-div#macOsScreen div#cercleV{
-
-width: 15px;
-height: 15px;
-border-radius: 50%;
-background-color: #2FC246;
-
+  background-color: #fcb63f;
+}
+div#macOsScreen div#cercleV {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #2fc246;
 }
 
-
 span.material-symbols-outlined {
-    padding-top: 50px;
-    font-size: 80px;
-	  -webkit-animation: slide-in-bottom 2s both;
-	  animation: slide-in-bottom 2s both;
-    transition: 0.3s;
+  padding-top: 50px;
+  font-size: 80px;
+  -webkit-animation: slide-in-bottom 2s both;
+  animation: slide-in-bottom 2s both;
+  transition: 0.3s;
 }
 
 span.material-symbols-outlined:hover {
-
-    font-size: 90px;
-    transition: 0.3s;
+  font-size: 90px;
+  transition: 0.3s;
 }
-
 
 /* *********************************************************** */
 
-  
+/* BODY */
 
-  /* BODY */
+/* *********************************************************** */
 
-  /* *********************************************************** */
-
-  /* CONTENT */
+/* CONTENT */
 
 div#content {
-
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 div#content h1 {
-
-    margin: 30px;
-    padding: 40px;
-    font-size: 50px;
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
-    font-weight: 900;
-    letter-spacing: 3px;
-    line-height: 1.5;
+  margin: 30px;
+  padding: 40px;
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.5;
 }
 
+div.parcours h2 {
+  margin: 0px;
+  padding: 30px;
+  font-size: 40px;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+div.parcours div.SCOLAIRE div.master,
+div.parcours div.SCOLAIRE div.bachelor,
+div.parcours div.SCOLAIRE div.bts,
+div.parcours div.professionel div.dodo,
+div.parcours div.professionel div.dirisi,
+div.parcours div.professionel div.kpsdev {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+div.parcours div.SCOLAIRE div.master div.left img,
+div.parcours div.SCOLAIRE div.bachelor div.left img,
+div.parcours div.SCOLAIRE div.bts div.left img,
+div.parcours div.professionel div.dodo div.left img,
+div.parcours div.professionel div.dirisi div.left img,
+div.parcours div.professionel div.kpsdev div.left img {
+  width: 100px; /* Modifiez la taille de l'image selon vos besoins */
+  height: auto; /* Pour maintenir les proportions */
+}
 
+div.parcours div.SCOLAIRE div.master div.right,
+div.parcours div.SCOLAIRE div.bachelor div.right,
+div.parcours div.SCOLAIRE div.bts div.right,
+div.parcours div.professionel div.dodo div.right,
+div.parcours div.professionel div.dirisi div.right,
+div.parcours div.professionel div.kpsdev div.right {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: flex-start;
+  width: 500px;
+  text-align: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
 
+div.parcours div.SCOLAIRE div.master div.right h3,
+div.parcours div.SCOLAIRE div.bachelor div.right h3,
+div.parcours div.SCOLAIRE div.bts div.right h3,
+div.parcours div.professionel div.dodo div.right h3,
+div.parcours div.professionel div.dirisi div.right h3,
+div.parcours div.professionel div.kpsdev div.right h3 {
+  margin-top: 10px; /* Ajoutez une marge au titre */
+  font-family: "Kanit", sans-serif;
+  text-align: left;
+}
 
+div.parcours div.SCOLAIRE div.master div.right div.content,
+div.parcours div.SCOLAIRE div.bachelor div.right div.content,
+div.parcours div.SCOLAIRE div.bts div.right div.content,
+div.parcours div.professionel div.dodo div.right div.content,
+div.parcours div.professionel div.dirisi div.right div.content,
+div.parcours div.professionel div.kpsdev div.right div.content {
+  text-align: left; /* Ajuste de l'alignement du texte */
+}
 
-  /* *********************************************************** */
- 
-   /* SKILLS */
+div.parcours div.SCOLAIRE div.master div.right div.content p,
+div.parcours div.SCOLAIRE div.bachelor div.right div.content p,
+div.parcours div.SCOLAIRE div.bts div.right div.content p,
+div.parcours div.professionel div.dodo div.right div.content p,
+div.parcours div.professionel div.dirisi div.right div.content p,
+div.parcours div.professionel div.kpsdev div.right div.content p {
+  margin: 0; /* Ajoutez une marge entre les paragraphes */
+  font-family: "Kanit", sans-serif;
+}
+
+/* *********************************************************** */
+
+/* SKILLS */
 
 #skills {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,7 +308,6 @@ div#content h1 {
   transform: skewY(5deg);
   margin-left: -3%;
   margin-right: -3%;
-
 }
 
 .group {
@@ -292,331 +326,247 @@ div#content h1 {
   height: 65px;
 }
 
+/* *********************************************************** */
 
-  /* *********************************************************** */
+/* ABOUTE ME */
 
-
-
-
-  /* ABOUTE ME */
-
-
-  #about_me {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-  }
-
-  #about_me img {
-
-    width: 30%;
-    height: 30%;
-  
-    box-shadow: 8px 8px 0 1px #4b7d8d;
- 
-  }
-
-
-
-  #about_me p {
-
-    width: 600px;
-    margin-top: 0;
-    font-size: 150%;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    text-align: justify;
-
-  }
-
-  #about_me a {
-
-    width: 170px;
-    height: 30px;
-    padding-top: 5px;  
-    transition: 0.5s;
-
-    color: #1f4752;
-    background-color: white;
-    box-shadow: 0px 0px 0 4px #1f4752;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-
-  }
-
-  #about_me a:hover {
-
-    width: 190px;
-    
-    transition: 0.5s;
-
-    color: white;
-    background-color: #4b7d8d;
-    box-shadow: 0px 0px 0 4px #1f4752;
-  
-  }
-
-  #about_me a:visited {
-
-    color: white;
-  }
-
-
-
-  div.qrCode {
+#about_me {
   display: flex;
-  flex-direction: column ;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#about_me img {
+  width: 30%;
+  height: 30%;
+
+  box-shadow: 8px 8px 0 1px #4b7d8d;
+}
+
+#about_me p {
+  width: 600px;
+  margin-top: 0;
+  font-size: 150%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+}
+
+#about_me a {
+  width: 170px;
+  height: 30px;
+  padding-top: 5px;
+  transition: 0.5s;
+
+  color: #1f4752;
+  background-color: white;
+  box-shadow: 0px 0px 0 4px #1f4752;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+#about_me a:hover {
+  width: 190px;
+
+  transition: 0.5s;
+
+  color: white;
+  background-color: #4b7d8d;
+  box-shadow: 0px 0px 0 4px #1f4752;
+}
+
+#about_me a:visited {
+  color: white;
+}
+
+div.qrCode {
+  display: flex;
+  flex-direction: column;
   justify-content: left;
   align-items: center;
 }
 
-
-
-
-  
-  /* *********************************************************** */
- 
-   /* CONTACT */
-
-   #contact {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 15vh;
-    background-color: #1f4752;
-    padding-top: 80px;
-
-    transform: skewY(-5deg);
-    margin-left: -3%;
-    margin-right: -3%;
-
-  
-
-   }
-   
-   #contact p {
-
-    width: 500px;
-    padding: 5px;
-
-    transform:skewY(5deg);
-
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    text-align: center;
-   
-
-
-    background-color: #bbd5db;
-    box-shadow: 4px 4px 0 2px #4b7d8d;
-
-
-   }
-
-   
-
-   #contact form {
-
-    display: flex;
-    flex-direction: column;
-    background-color: #bbd5db;
-    padding: 30px;
-    width: 500px;
-
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-
-    box-shadow: 8px 8px 0 4px #4b7d8d;
-
-    transform: skewY(5deg);
-  
- 
-
-   }
-
-   #contact form label{
-
-    font-weight: bold;
-  }
-
-   #contact form input {
-
-    height: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-    padding-left: 5px;
-
-    border: 4px solid #1f4752;
-    background-color: #FFFFFF;
-
-    font-size: 20px;
-    color: #1f4752;
-    transition: 0.5s;
-    font-family: 'Kanit', sans-serif;
-
-
-   }
-
-   #contact form input:focus{
-
-    height: 35px;
-    transition: 0.5s;
-    outline: none;
-    
-   }
-
-
-   #contact form textarea {
-
-    height: 50px;
-    margin-top: 5px;
-
-    padding-left: 5px;
-
-
-    border: 4px solid #1f4752;
-    outline: none;
-
-    transition: 0.5s;
-    background-color: #FFFFFF;
-    font-size: 20px;
-    color: #1f4752;
-    transition: 0.5s;
-    font-family: 'Kanit', sans-serif;
-
-   }
-
-   #contact form textarea:focus {
-
-    height: 100px;
-    transition: 0.5s;
-    
-   }
-
-
-   .g-recaptcha{ 
-    width: 305px;
-    padding-top: 20px; 
-    margin: 0 auto; 
-  } 
-
-
-   #contact form button{
-
-    width: 200px;
-    height: 35px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Kanit', sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    background-color: white;
-    color : #1f4752;
-    border: none;
-    transform:skew(-10deg);
-    transition: 0.5s;
-    box-shadow: 0px 0px 0 4px #1f4752;
-
-
-  
-   }
-   #contact form button:hover {
-
-    transition: 0.5s;
-    width: 225px;
-    letter-spacing: 6px;
-    background-color: #4b7d8d;
-    color: #FFFFFF;
-    box-shadow: 0px 0px 0 4px #1f4752;
-
-   }
-
-
-  
-  /* *********************************************************** */
- 
-  
-  
-  /* BLOCK WHITE */
-  
-  #white_block {
-
-    display: block;
-    height: 200px;
-
-
-  }
-
-  #white_block div.contact_img {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-   #white_block div.contact_img a img{
-
-    padding-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 75px;
-    width: 75px;
-    transition: 0.5s;
-
-   }
-   #white_block div.contact_img a img:hover{
-
-  
-    
-    height: 85px;
-    width: 85px;
-    transition: 0.5s;
-
-
-
-   }
-  
-  
-  /* *********************************************************** */
-
-   /* FOOTER */
-
-  footer {
-
-    background-color: #1f4752;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -3%;
-    margin-right: -3%;
-    margin-bottom: -3%;
-    width: auto;
-
-
-  }  
-
-  footer p {
-
-  
-    font-size: 15px;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    color: white;
- 
-
-  }
-  
-  /* *********************************************************** */
+/* *********************************************************** */
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15vh;
+  background-color: #1f4752;
+  padding-top: 80px;
+
+  transform: skewY(-5deg);
+  margin-left: -3%;
+  margin-right: -3%;
+}
+
+#contact p {
+  width: 500px;
+  padding: 5px;
+
+  transform: skewY(5deg);
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-align: center;
+
+  background-color: #bbd5db;
+  box-shadow: 4px 4px 0 2px #4b7d8d;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  background-color: #bbd5db;
+  padding: 30px;
+  width: 500px;
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  box-shadow: 8px 8px 0 4px #4b7d8d;
+
+  transform: skewY(5deg);
+}
+
+#contact form label {
+  font-weight: bold;
+}
+
+#contact form input {
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  padding-left: 5px;
+
+  border: 4px solid #1f4752;
+  background-color: #ffffff;
+
+  font-size: 20px;
+  color: #1f4752;
+  transition: 0.5s;
+  font-family: "Kanit", sans-serif;
+}
+
+#contact form input:focus {
+  height: 35px;
+  transition: 0.5s;
+  outline: none;
+}
+
+#contact form textarea {
+  height: 50px;
+  margin-top: 5px;
+
+  padding-left: 5px;
+
+  border: 4px solid #1f4752;
+  outline: none;
+
+  transition: 0.5s;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #1f4752;
+  transition: 0.5s;
+  font-family: "Kanit", sans-serif;
+}
+
+#contact form textarea:focus {
+  height: 100px;
+  transition: 0.5s;
+}
+
+.g-recaptcha {
+  width: 305px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+#contact form button {
+  width: 200px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #1f4752;
+  border: none;
+  transform: skew(-10deg);
+  transition: 0.5s;
+  box-shadow: 0px 0px 0 4px #1f4752;
+}
+#contact form button:hover {
+  transition: 0.5s;
+  width: 225px;
+  letter-spacing: 6px;
+  background-color: #4b7d8d;
+  color: #ffffff;
+  box-shadow: 0px 0px 0 4px #1f4752;
+}
+
+/* *********************************************************** */
+
+/* BLOCK WHITE */
+
+#white_block {
+  display: block;
+  height: 200px;
+}
+
+#white_block div.contact_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#white_block div.contact_img a img {
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 75px;
+  width: 75px;
+  transition: 0.5s;
+}
+#white_block div.contact_img a img:hover {
+  height: 85px;
+  width: 85px;
+  transition: 0.5s;
+}
+
+/* *********************************************************** */
+
+/* FOOTER */
+
+footer {
+  background-color: #1f4752;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -3%;
+  margin-right: -3%;
+  margin-bottom: -3%;
+  width: auto;
+}
+
+footer p {
+  font-size: 15px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+/* *********************************************************** */

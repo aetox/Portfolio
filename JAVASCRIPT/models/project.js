@@ -1,26 +1,30 @@
 class Project {
-    constructor(data){
+    constructor(data) {
         this._title = data.title
         this._picture = data.picture
         this._description = data.description
+        this._techno = data.techno
         this._date = data.date
         this._link = data.link
     }
 
-    get title(){
+    get title() {
         return this._title
     }
 
-    get picture(){
-        return `assets/${this._picture}`
+    get techno() {
+        return this._techno
     }
 
-    get description(){
+    get picture() {
+        return `assets/Projets/${this._picture}`
+    }
+
+    get description() {
         return this._description
     }
-    get link(){
+    get link() {
         return this._link
-
     }
 
     get date() {

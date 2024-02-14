@@ -1,43 +1,43 @@
-@media (max-width: 925px) {
-  .qrCode p {
-    padding-top: 50px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   header {
     height: 100vh;
   }
 
+  div#en-tete {
+    width: 100%;
+    height: 60vh;
+  }
   div#en-tete h1 {
-    font-size: 140px;
-    padding: 30px;
+    font-size: 5vw;
+    padding: 3vw;
   }
 
   div#en-tete h2 {
-    font-size: 50px;
-    padding: 30px;
+    font-size: 3vw;
+    padding: 3vw;
   }
 
   div#en-tete pre {
-    font-size: 30px;
-    height: 650px !important;
+    font-size: 1.5vw;
+    width: 90vw;
+    height: 60vh;
   }
+
   span.material-symbols-outlined {
-    font-size: 150px;
+    font-size: 10vw;
   }
 
   span.material-symbols-outlined:hover {
-    font-size: 170px;
+    font-size: 11vw;
   }
 
   div.project-card-wrapper img {
-    width: 700px;
-    height: 420px;
+    width: 90vw;
+    height: 50vh;
   }
   div.project-card-wrapper img:hover {
-    width: 725px;
-    height: 445px;
+    width: 95vw;
+    height: 55vh;
   }
 
   div.project-card-wrapper h3 {
@@ -45,23 +45,23 @@
   }
 
   div.project-card-wrapper a {
-    font-size: 40px;
+    font-size: 4vw;
     margin-bottom: 0;
   }
 
   div.project-card-wrapper p {
-    font-size: 30px;
+    font-size: 3vw;
     margin-top: 0;
-    margin-bottom: 40px;
-    width: 700px;
+    margin-bottom: 4vh;
+    width: 90vw;
   }
 
   .group img {
-    height: 100px;
+    height: 10vh;
   }
 
   .group img:hover {
-    height: 110px;
+    height: 11vh;
   }
 
   #about_me {
@@ -70,92 +70,89 @@
   }
 
   #about_me img {
-    width: 40%;
-    height: 40%;
+    width: 40vw;
+    height: 40vw;
   }
 
   #about_me p {
-    padding-top: 50px;
-    width: 800px;
+    padding-top: 5vh;
+    width: 90vw;
     text-align: justify;
   }
   #about_me a {
-    width: 300px;
-    height: 50px;
-    font-size: 30px;
+    width: 30vw;
+    height: 5vh;
+    font-size: 3vw;
   }
 
   #about_me a:hover {
-    width: 310px;
+    width: 31vw;
   }
   img.qrCode {
-    width: 180px !important;
-    height: 180px !important;
-    box-shadow: none !important;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: 18vw;
+    height: 18vw;
+    box-shadow: none;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
   }
 
   #contact {
-    padding-top: 250px;
+    padding-top: 25vh;
   }
 
   #contact p {
-    width: 800px;
-    padding: 5px;
-
+    width: 90vw;
     transform: skewY(5deg);
-
     font-family: "Kanit", sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
-
     background-color: #bbd5db;
     box-shadow: 4px 4px 0 2px #4b7d8d;
   }
 
   #contact form {
     display: flex;
-    width: 800px;
-    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
   }
 
   #contact form label {
-    font-size: 30px;
+    font-size: 3vw;
   }
   #contact form input {
-    height: 60px;
-    font-size: 30px;
+    height: 6vh;
+    font-size: 3vw;
   }
   #contact form input:focus {
-    height: 70px;
+    height: 7vh;
   }
   #contact form textarea {
-    height: 300px;
-    font-size: 30px;
+    height: 30vh;
+    font-size: 3vw;
   }
   #contact form textarea:focus {
-    height: 200px;
+    height: 20vh;
   }
 
   .g-recaptcha {
-    padding: 50px;
+    padding: 5vh;
     transform: scale(1.5);
-    transform: origin -10px;
+    transform-origin: -10px;
   }
 
   #contact form button {
-    width: 250px;
-    height: 50px;
-    font-size: 30px;
+    width: 25vw;
+    height: 5vh;
+    font-size: 3vw;
   }
 
   #contact form button:hover {
-    width: 275px;
+    width: 26.5vw;
   }
 
   footer p {
-    font-size: 30px;
+    font-size: 3vw;
   }
 }

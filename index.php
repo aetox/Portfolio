@@ -97,7 +97,7 @@
   <header class="en-tete">
 
       <div id="en-tete" class="load">
-        <h1>SALUT,</h1>
+        <h1>BONJOUR,</h1>
 
         <div id="macOsScreen">
 
@@ -108,20 +108,20 @@
           </div>
 
           <pre id="typewriter">
-            <span class="var-highlight">let </span> alternant = {
+            <span class="var-highlight">let</span> alternant = {
                 Prenom: <span class="string-highlight">'Dimitri'</span>,
                 Nom: <span class="string-highlight">'KAPOLAS'</span>,
-                Age: <span class="string-highlight">'22'</span>,
-                Ville: <span class="string-highlight">'Nancy'</span>,
+                Age: <span class="string-highlight">'23'</span>,
                 Competences:[
-                            <span class="string-highlight">'Angular'</span>,
-                            <span class="string-highlight">'Typescript'</span>,
-                            <span class="string-highlight">'Java'</span>,
-                            <span class="string-highlight">'PHP'</span>,
-                            <span class="string-highlight">'MySQL'</span>,
-                            <span class="string-highlight">'Javascript'</span>,
-                            <span class="string-highlight">'Boostrap'</span>,
-                            <span class="string-highlight">'HTML'</span>];
+                            <span class="string-highlight">'Java,Python,Dart,Swift'</span>,
+                            <span class="string-highlight">'Javascript,Typescript,HTML,CSS'</span>,
+                            <span class="string-highlight">'MySQL,PostgreSQL'</span>,
+                            <span class="string-highlight">'Angular,Flutter'</span>,
+                            <span class="string-highlight">'API REST, JSON'</span>,
+                            <span class="string-highlight">'Git,GitHub'</span>,
+                            <span class="string-highlight">'Docker,Virtualisation'</span>,
+                            <span class="string-highlight">'VS Code, Xcode, Talend Open Studio'</span>,
+                            <span class="string-highlight">'Windows,Mac OS, Linux'</span>];
             }; </pre>
 
         </div>
@@ -140,39 +140,125 @@
     <div id="content">
 
       <h1>MES PROJETS</h1>
-      
-            
-        <!-- Design Pattern : 
-      
-          Ce sont les différents projets
-        -->
-
-                <div class="project_gallery"></div>
+    
+          <div class="project_gallery"></div>
               
 
-      <h1>COMPETENCES</h1>
+      <h1>COMPÉTENCES</h1>
 
       <div id="skills">
         <div class="group">
             <img src="ASSETS/icons/angular.png" alt="angular">
             <img src="ASSETS/icons/typescript.png" alt="typescript">
             <img src="ASSETS/icons/java.png" alt="java">
+
       </div>
         <div class="group">
-            <img src="ASSETS/icons/php.png" alt="php">
-            <img src="ASSETS/icons/mysql.png" alt="mysql">
+            <img src="ASSETS/icons/flutter.png" alt="flutter">
+            <img src="ASSETS/icons/python.png" alt="python">
             <img src="ASSETS/icons/javascript.png" alt="javascript">
         </div>
         <div class="group">
-            <img src="ASSETS/icons/bootstrap.png" alt="bootstrap">
-
-            <img src="ASSETS/icons/html.png" alt="HTML">
-            <img src="ASSETS/icons/css.png" alt="css">
+            <img src="ASSETS/icons/swift.png" alt="swift">
+            <img src="ASSETS/icons/git.png" alt="GIT">
+            <img src="ASSETS/icons/docker.png" alt="docker">
         </div>
     
       </div>
 
-      <h1>A PROPOS DE MOI</h1>
+      <h1>PARCOURS</h1>
+      <div class="parcours">
+
+  <div class="professionel">
+    <h2>Professionnel</h2>
+    <div class="dodo">
+      <div class="left">
+        <img src="ASSETS/OTHER/dodo.png" alt="Logo DODO">
+      </div>
+      <div class="right">
+        <h3>Développeur Back End</h3>
+        <div class="content">
+          <p>Année : 2023-2024 </p>
+          <p>Entreprise : DODO</p>
+          <p>Ville : Saint-Avold </p>
+          <p>Résumé : Maintenance en condition opérationnelle. Développements de sites web avec JHispter (Angular/Spring Boot). Mise en place et administration d’un wiki pour la DSI. Étude pour l’intégration d’un PIM (Product Information Management).</p>
+        </div>
+      </div>
+    </div>
+    <div class="dirisi">
+      <div class="left">
+        <img src="ASSETS/OTHER/dirisi.svg" alt="Logo DIRISI">
+      </div>
+      <div class="right">
+        <h3>Responsable de projet SIC</h3>
+        <div class="content">
+          <p>Année : 2021-2023 </p>
+          <p>Entreprise : DIRISI</p>
+          <p>Ville : Metz </p>
+          <p>Résumé : Gestion de projets S.I.C. Création d'architecture réseaux. Mise en place et administration d'une communauté de travail. Configuration et mise en service de commutateurs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="kpsdev">
+      <div class="left">
+        <img src="ASSETS/OTHER/kpsdev.png" alt="Logo KpsDev">
+      </div>
+      <div class="right">
+        <h3>Auto-Entrepreneur</h3>
+        <div class="content">
+          <p>Année : 2021 </p>
+          <p>Entreprise : KPSDEV</p>
+          <p>Ville : Metz </p>
+          <p>Résumé : Création de devis personnalisés à la spécificité du client. Montage, entretien, réparation de PC. Installation à domicile de la tour et des composants. Développement du site internet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="SCOLAIRE">
+    <h2>Scolaire</h2>
+    <div class="master">
+      <div class="left">
+        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+      </div>
+      <div class="right">
+        <h3>Master Manager en architecture et applications logicielles des Systèmes d'Information</h3>
+        <div class="content">
+          <p>Année : 2024-2026 </p>
+          <p>École : CESI</p>
+          <p>Ville : Nancy </p>
+        </div>
+      </div>
+    </div>
+    <div class="bachelor">
+      <div class="left">
+        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+      </div>
+      <div class="right">
+        <h3>Bachelor Concepteur Développeur d'Application spécialité DEVOPS</h3>
+        <div class="content">
+          <p>Année : 2023-2024 </p>
+          <p>École : CESI</p>
+          <p>Ville : Nancy </p>
+        </div>
+      </div>
+    </div>
+    <div class="bts">
+      <div class="left">
+        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+      </div>
+      <div class="right">
+        <h3>BTS Technicien Système et Réseaux </h3>
+        <div class="content">
+          <p>Année : 2021-2023 </p>
+          <p>École : CESI</p>
+          <p>Ville : Nancy </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <h1>À PROPOS DE MOI</h1>
 
       <div id="about_me">
 
@@ -181,7 +267,7 @@
         <div class="qrCode">
 
         <p>
-        Je m'appelle Dimitri KAPOLAS, un passionné de développement informatique âgé de 22 ans et résidant à Metz. Actuellement, je poursuis mon parcours académique en tant qu'étudiant en Bachelor Concepteur Développeur d'Applications au CESI Nancy. Mon apprentissage se déroule au sein de l'entreprise DODO SAS à Saint-Avold, où j'occupe le rôle de développeur Back-End.
+        Je m'appelle Dimitri KAPOLAS, un passionné de développement informatique âgé de 23 ans et résidant à Metz. Actuellement, je poursuis mon parcours académique en tant qu'étudiant en Bachelor Concepteur Développeur d'Applications au CESI Nancy. Mon apprentissage se déroule au sein de l'entreprise DODO SAS à Saint-Avold, où j'occupe le rôle de développeur Back-End.
           </p>
 
         <a href="ASSETS/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
@@ -252,7 +338,7 @@
       </div>
 
 
-      <h1>RESEAUX SOCIAUX</h1>
+      <h1>RÉSEAUX SOCIAUX</h1>
 
     </div>
           
@@ -263,7 +349,6 @@
 
                <a href="https://www.linkedin.com/in/dimitri-kapolas-195799201/" target="_blank"><img src="ASSETS/CONTACT/Linkedin.png" alt=" Linkedin"></a>
                <a href="https://github.com/aetox" target="_blank"><img src="ASSETS/CONTACT/Github.png" alt=" Github"></a> 
-               <a href="https://www.malt.fr/profile/dimitrikapolas" target="_blank" ><img src="ASSETS/CONTACT/Malt.png" alt=" Malt"></a>  
 
         </div>
     </div>
@@ -271,21 +356,21 @@
 
     <footer>
 
-      <p>DIMITRI KAPOLAS | 2022</p>
+      <p>DIMITRI KAPOLAS | 2024</p>
 
     </footer>
 
         <!-- Models -->
-        <script src="/JAVASCRIPT/models/project.js"></script>
+        <script src="JAVASCRIPT/models/project.js"></script>
 
         <!-- Templates -->
-        <script src="/JAVASCRIPT/templates/projectCard.js"></script>
+        <script src="JAVASCRIPT/templates/projectCard.js"></script>
     
         <!-- Api -->
-        <script src="/JAVASCRIPT/api/Api.js"></script>
+        <script src="JAVASCRIPT/api/Api.js"></script>
     
         <!-- Entry point -->
-        <script src="/JAVASCRIPT/App.js"></script>
+        <script src="JAVASCRIPT/App.js"></script>
 
 
         <script src="https://www.google.com/recaptcha/api.js"></script>
