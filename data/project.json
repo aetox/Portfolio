@@ -16,14 +16,6 @@
     "link": "https://equides.eu"
   },
   {
-    "title": "Jesus VS Satan",
-    "description": "Jeu à aborder avec l'esprit ouvert et le sens de l'humour.",
-    "date": "2022",
-    "techno": "Python, Librairie : Pygame.",
-    "picture": "JesusVsSatan/JesusVsSatan.png",
-    "link": "https://github.com/aetox/JesusVsSatan"
-  },
-  {
     "title": "Portfolio",
     "description": "Portfolio Dimitri Kapolas",
     "date": "2022",
