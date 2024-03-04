@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="CSS/project-card.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="icon" href="ASSETS/Dimitri/DK.ico" />
+    <link rel="icon" href="assets/Dimitri/DK.ico" />
    
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     
@@ -39,7 +39,7 @@
   
  <h1>GROS BETA TU ES DÉJÀ SUR CE SITE WEB XDDD</h1>
  <h2><a href="index.php" id="link" onclick="closeWindow()">Fermer l'onglet</a></h2>
- <img src="ASSETS/OTHER/ane.gif" alt="">
+ <img src="assets/OTHER/ane.gif" alt="">
 
 <script>
 function closeWindow() {

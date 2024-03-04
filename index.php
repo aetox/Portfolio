@@ -79,7 +79,7 @@
     <link rel="stylesheet" href="CSS/project-card.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="icon" href="ASSETS/Dimitri/DK.ico" />
+    <link rel="icon" href="assets/Dimitri/DK.ico" />
    
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     
@@ -148,20 +148,20 @@
 
       <div id="skills">
         <div class="group">
-            <img src="ASSETS/icons/angular.png" alt="angular">
-            <img src="ASSETS/icons/typescript.png" alt="typescript">
-            <img src="ASSETS/icons/java.png" alt="java">
+            <img src="assets/icons/angular.png" alt="angular">
+            <img src="assets/icons/typescript.png" alt="typescript">
+            <img src="assets/icons/java.png" alt="java">
 
       </div>
         <div class="group">
-            <img src="ASSETS/icons/flutter.png" alt="flutter">
-            <img src="ASSETS/icons/python.png" alt="python">
-            <img src="ASSETS/icons/javascript.png" alt="javascript">
+            <img src="assets/icons/flutter.png" alt="flutter">
+            <img src="assets/icons/python.png" alt="python">
+            <img src="assets/icons/javascript.png" alt="javascript">
         </div>
         <div class="group">
-            <img src="ASSETS/icons/swift.png" alt="swift">
-            <img src="ASSETS/icons/git.png" alt="GIT">
-            <img src="ASSETS/icons/docker.png" alt="docker">
+            <img src="assets/icons/swift.png" alt="swift">
+            <img src="assets/icons/git.png" alt="GIT">
+            <img src="assets/icons/docker.png" alt="docker">
         </div>
     
       </div>
@@ -173,7 +173,7 @@
     <h2>Professionnel</h2>
     <div class="dodo">
       <div class="left">
-        <img src="ASSETS/OTHER/dodo.png" alt="Logo DODO">
+        <img src="assets/OTHER/dodo.png" alt="Logo DODO">
       </div>
       <div class="right">
         <h3>Développeur Back End</h3>
@@ -187,7 +187,7 @@
     </div>
     <div class="dirisi">
       <div class="left">
-        <img src="ASSETS/OTHER/dirisi.svg" alt="Logo DIRISI">
+        <img src="assets/OTHER/dirisi.svg" alt="Logo DIRISI">
       </div>
       <div class="right">
         <h3>Responsable de projet SIC</h3>
@@ -201,7 +201,7 @@
     </div>
     <div class="kpsdev">
       <div class="left">
-        <img src="ASSETS/OTHER/kpsdev.png" alt="Logo KpsDev">
+        <img src="assets/OTHER/kpsdev.png" alt="Logo KpsDev">
       </div>
       <div class="right">
         <h3>Auto-Entrepreneur</h3>
@@ -218,7 +218,7 @@
     <h2>Scolaire</h2>
     <div class="master">
       <div class="left">
-        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+        <img src="assets/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
       </div>
       <div class="right">
         <h3>Master Manager en architecture et applications logicielles des Systèmes d'Information</h3>
@@ -231,7 +231,7 @@
     </div>
     <div class="bachelor">
       <div class="left">
-        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+        <img src="assets/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
       </div>
       <div class="right">
         <h3>Bachelor Concepteur Développeur d'Application spécialité DEVOPS</h3>
@@ -244,7 +244,7 @@
     </div>
     <div class="bts">
       <div class="left">
-        <img src="ASSETS/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
+        <img src="assets/OTHER/Logo_cesi_2022.png" alt="Logo CESI">
       </div>
       <div class="right">
         <h3>BTS Technicien Système et Réseaux </h3>
@@ -262,7 +262,7 @@
 
       <div id="about_me">
 
-        <img src="ASSETS/Dimitri/dimitri.png" alt="Photo Dimitri KAPOLAS">
+        <img src="assets/Dimitri/dimitri.png" alt="Photo Dimitri KAPOLAS">
 
         <div class="qrCode">
 
@@ -270,7 +270,7 @@
         Je m'appelle Dimitri KAPOLAS, un passionné de développement informatique âgé de 23 ans et résidant à Metz. Actuellement, je poursuis mon parcours académique en tant qu'étudiant en Bachelor Concepteur Développeur d'Applications au CESI Nancy. Mon apprentissage se déroule au sein de l'entreprise DODO SAS à Saint-Avold, où j'occupe le rôle de développeur Back-End.
           </p>
 
-        <a href="ASSETS/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
+        <a href="assets/Dimitri/CV_Kapolas.pdf" download> Télécharger mon CV</a>
         
       </div>
 
@@ -347,8 +347,8 @@
     <div id="white_block">
         <div class="contact_img">
 
-               <a href="https://www.linkedin.com/in/dimitri-kapolas-195799201/" target="_blank"><img src="ASSETS/CONTACT/Linkedin.png" alt=" Linkedin"></a>
-               <a href="https://github.com/aetox" target="_blank"><img src="ASSETS/CONTACT/Github.png" alt=" Github"></a> 
+               <a href="https://www.linkedin.com/in/dimitri-kapolas-195799201/" target="_blank"><img src="assets/CONTACT/Linkedin.png" alt=" Linkedin"></a>
+               <a href="https://github.com/aetox" target="_blank"><img src="assets/CONTACT/Github.png" alt=" Github"></a> 
 
         </div>
     </div>
