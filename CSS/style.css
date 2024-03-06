@@ -378,10 +378,6 @@ div.parcours div.professionel div.kpsdev div.right div.content p {
   box-shadow: 0px 0px 0 4px #1f4752;
 }
 
-#about_me a:visited {
-  color: white;
-}
-
 div.qrCode {
   display: flex;
   flex-direction: column;

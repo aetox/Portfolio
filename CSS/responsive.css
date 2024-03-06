@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
   header {
     height: 100vh;
   }
@@ -8,7 +8,7 @@
     height: 60vh;
   }
   div#en-tete h1 {
-    font-size: 5vw;
+    font-size: 8vw;
     padding: 3vw;
   }
 
@@ -18,9 +18,9 @@
   }
 
   div#en-tete pre {
-    font-size: 1.5vw;
+    font-size: 3vw;
     width: 90vw;
-    height: 60vh;
+    height: 35vh !important;
   }
 
   span.material-symbols-outlined {
@@ -33,11 +33,11 @@
 
   div.project-card-wrapper img {
     width: 90vw;
-    height: 50vh;
+    height: 25vh;
   }
   div.project-card-wrapper img:hover {
     width: 95vw;
-    height: 55vh;
+    height: 26vh;
   }
 
   div.project-card-wrapper h3 {
@@ -57,11 +57,21 @@
   }
 
   .group img {
-    height: 10vh;
+    height: 6vh;
   }
 
   .group img:hover {
-    height: 11vh;
+    height: 7vh;
+  }
+
+  div.parcours div.SCOLAIRE div.master,
+  div.parcours div.SCOLAIRE div.bachelor,
+  div.parcours div.SCOLAIRE div.bts,
+  div.parcours div.professionel div.dodo,
+  div.parcours div.professionel div.dirisi,
+  div.parcours div.professionel div.kpsdev {
+    flex-direction: column;
+    align-items: center;
   }
 
   #about_me {
@@ -81,7 +91,7 @@
   }
   #about_me a {
     width: 30vw;
-    height: 5vh;
+    height: 50px;
     font-size: 3vw;
   }
 
@@ -115,36 +125,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
+    width: 80vw;
   }
 
   #contact form label {
     font-size: 3vw;
   }
   #contact form input {
-    height: 6vh;
+    height: 80%;
+    width: 80%;
     font-size: 3vw;
   }
   #contact form input:focus {
-    height: 7vh;
+    height: 80%;
   }
   #contact form textarea {
-    height: 30vh;
+    height: 20vh;
+    width: 80%;
+    max-width: 80%;
     font-size: 3vw;
   }
   #contact form textarea:focus {
-    height: 20vh;
+    height: 25vh;
   }
 
   .g-recaptcha {
     padding: 5vh;
     transform: scale(1.5);
-    transform-origin: -10px;
   }
 
   #contact form button {
     width: 25vw;
-    height: 5vh;
+    height: 50px;
     font-size: 3vw;
   }
 
